@@ -89,7 +89,7 @@ class Content extends Component<Props> {
           </Grid>
           <Grid item md={7}>
             <Typography variant="subtitle1" gutterBottom align="left" className={classes.contentText2} style={{color:'#111111',fontWeight:800}}>
-              {`Ph.D Candidate`}
+              {`Ph.D Student`}
             </Typography>
             <Typography variant="subtitle1" gutterBottom align="left" className={classes.contentText2}>
               {`State Key Lab of CAD&CG, Zhejiang University`}

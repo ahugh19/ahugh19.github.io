@@ -50,7 +50,7 @@ class Bio extends Component<Props> {
           </Grid>
           <Grid item md={8}>
             <Typography variant="subtitle1" gutterBottom align="left" className={classes.bioText}>
-              I’m a 1st-year Computer Science Ph.D. candidate 
+              I’m a 1st-year Computer Science Ph.D. student 
               studying Data Visualization at&nbsp;
               <a href='http://www.cad.zju.edu.cn/' className={classes.aLink}>State Key Lab of CAD&CG</a>,&nbsp;
               <a href='https://www.zju.edu.cn/' className={classes.aLink}>Zhejiang University</a>&nbsp;
