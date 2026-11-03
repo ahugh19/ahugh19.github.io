@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /assets/loss/
+Disallow: /loss/human
+Disallow: /loss/machine
+
+Sitemap: https://ahugh19.github.io/sitemap.xml
