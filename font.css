@@ -1,49 +1,74 @@
-@font-face {  
-  font-family: Gravity;  
-  src: url('./fonts/Gravity.otf');
+/*
+ * Gravity, one family with real weights so `font-weight: 700` picks the Bold
+ * cut instead of a synthesized bold.
+ */
+@font-face {
+  font-family: 'Gravity';
+  src: url('./fonts/GravityUltralight.otf') format('opentype');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
 }
-
-@font-face {  
-  font-family: GravityItalic;  
-  src: url('./fonts/GravityItalic.otf');
+@font-face {
+  font-family: 'Gravity';
+  src: url('./fonts/GravityUltralightItalic.otf') format('opentype');
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
 }
-
-@font-face {  
-  font-family: GravityLight;  
-  src: url('./fonts/GravityLight.otf');
+@font-face {
+  font-family: 'Gravity';
+  src: url('./fonts/GravityLight.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
 }
-
-@font-face {  
-  font-family: GravityLightItalic;  
-  src: url('./fonts/GravityLightItalic.otf');
+@font-face {
+  font-family: 'Gravity';
+  src: url('./fonts/GravityLightItalic.otf') format('opentype');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
 }
-
-@font-face {  
-  font-family: GravityBold;  
-  src: url('./fonts/GravityBold.otf');
+@font-face {
+  font-family: 'Gravity';
+  src: url('./fonts/GravityBook.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
 }
-
-@font-face {  
-  font-family: GravityBoldItalic;  
-  src: url('./fonts/GravityBoldItalic.otf');
+@font-face {
+  font-family: 'Gravity';
+  src: url('./fonts/GravityBookItalic.otf') format('opentype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
 }
-
-@font-face {  
-  font-family: GravityBook;  
-  src: url('./fonts/GravityBook.otf');
+@font-face {
+  font-family: 'Gravity';
+  src: url('./fonts/Gravity.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
 }
-
-@font-face {  
-  font-family: GravityBookItalic;  
-  src: url('./fonts/GravityBookItalic.otf');
+@font-face {
+  font-family: 'Gravity';
+  src: url('./fonts/GravityItalic.otf') format('opentype');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
 }
-
-@font-face {  
-  font-family: GravityUltralight;  
-  src: url('./fonts/GravityUltralight.otf');
+@font-face {
+  font-family: 'Gravity';
+  src: url('./fonts/GravityBold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
 }
-
-@font-face {  
-  font-family: GravityUltralightItalic;  
-  src: url('./fonts/GravityUltralightItalic.otf');
+@font-face {
+  font-family: 'Gravity';
+  src: url('./fonts/GravityBoldItalic.otf') format('opentype');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
 }
